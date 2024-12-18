@@ -21,7 +21,7 @@ const navigation = [
             <h1 class="text-2xl font-bold text-primary">Pro Plumbing</h1>
           </div>
         </div>
-        
+
         <!-- Desktop menu -->
         <div class="hidden sm:flex sm:items-center">
           <div class="flex space-x-4">
@@ -30,9 +30,9 @@ const navigation = [
               {{ item.name }}
             </a>
           </div>
-          <a href="tel:1234567890" 
+          <a href="tel:1234567890"
             class="ml-8 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-primary hover:bg-secondary">
-            Call Now: (123) 456-7890
+            Call Now: (123) 456 7890
           </a>
         </div>
 
@@ -53,7 +53,7 @@ const navigation = [
             @click="isMenuOpen = false">
             {{ item.name }}
           </a>
-          <a href="tel:1234567890" 
+          <a href="tel:1234567890"
             class="block px-3 py-2 text-base font-medium text-primary hover:text-secondary">
             Call Now: (123) 456-7890
           </a>
